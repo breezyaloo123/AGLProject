@@ -30,7 +30,7 @@ jobs:
         image: breezyaloo/projetagl
         registry: docker.io
         username: ${{ secrets.BREEZYALOO }}
-        password: ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}
+        password: ${{ secrets.DOCKER12345 }}
         repository: breezyaloo/projetagl
         tag_with_ref: true
 
